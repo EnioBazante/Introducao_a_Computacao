@@ -1,18 +1,79 @@
+img{
+    display: inline;
+}
+header {
+    display: inline-block;
+    padding: 0 200 0 0;
+    justify-content: space-between;
+    width: 100%;
+    display: inline;
+    align-items: end ;
+    justify-content: space-between;
+    /* border-spacing:; */
+}
+
+header nav{
+    align-items: ;
+    border: 5px solid black;
+    padding: 0 200 0 0;
+    justify-content: space-between;
+    display: inline;
+    align-items: end;
+    float: ;
+}
 
 
 header nav a{
+    display: inline-block;
+
+    padding: 0 200 0 0;
+    justify-content: space-between;
+    display: inline;
+    align-items: end;
 
 
     text-decoration: none;
+    box-sizing: border-box;
+
 }
 
-header a img{
+header nav a:hover{
+    background-color: #ff7c7c;
+    color: #00fff2;
+    border-radius: 30px;
+    padding: 5px; margin: 0;
+    
+}
+header nav a img{
     width: 200px;
 }
+
+#oi{
+    /* border-spacing: 5px; */
+    padding: 200;
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+}
+#oioi{
+    padding: 200;
+    border: 5px solid rgb(221, 78, 78);
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    display: block;
+}   
+#oioi p{
+    display: block;
+
+}
+
+
 
 /*Sobre o curso*/
 
 .sobre-o-curso{
  color: green;   
 }
-
