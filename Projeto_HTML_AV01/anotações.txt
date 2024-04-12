@@ -1,70 +1,128 @@
-<h1> De onde surgiu o sistema decimal? </h1>
+<h1 id="rol_surgimento_topico"> De onde surgiu o sistema decimal? </h1>
 
-id="surgimento_topico"     
+id="rol_surgimento_topico"     
 
-<h1>A importãncia do sistema decimal </h1>
-    <h3>A vida em cotidiano</h3>
-    <h3>Unidades de medidas </h3>
-    <h3>Origem de outros sistemas númericos</h3>
+<h1 id="rol_importancia_topico">A importãncia do sistema decimal </h1>
+    <h3 id="rol_importancia_topico_1">A vida em cotidiano</h3>
+    <h3 id="rol_importancia_topico_2">Unidades de medidas </h3>
+    <h3 id="rol_importancia_topico_3">Origem de outros sistemas númericos</h3>
 
-id="importancia_topico"
+id="rol_importancia_topico"
+<li><a href="imagem">surgimento</a></li>
+<li><a href="imagem">Cotidiano</a></li>
+<li><a href="imagem">Unidades</a></li>
+<li><a href="imagem">Sistema</a></li>
 
-<h1>O que é a Base Decimal?</h1>
-    <h4>Vamos começar pela Unidade!</h4>
+
+img
+ <li><a href="imagem">operacoes</a></li>
+
+
+
+
+
+
+<h1 id="rol_operacoes_topico">O que é a Base Decimal?</h1>
+    <h4 id="rol_operacoes_topico_unidade">Vamos começar pela Unidade!</h4>
     <h4>Partindo para a Dezena...</h4>
     <h4>Indo para a Centena...</h4>
 
-    <h3>Cálculo da adição</h3>
+    <h2 id="rol_operacoes_topico_adicao">Cálculo da adição</h3>
         <h3>Propriedades</h3>
-    <h2>Subtração</h2>
+    <h2 id="rol_operacoes_topico_subtracao">Subtração</h2>
         <h3>Cálculo da subtração</h3>
         <h3>Propriedades</h3>
         <h4>Atenção!</h4>
-    <h2>Multiplicação</h2>
+    <h2 id="rol_operacoes_topico_multiplicacao">Multiplicação</h2>
         <h3>Cálculo da multiplicação</h3>
         <h3>Propriedades</h3>
-    <h2>Divisão</h2>
+    <h2 id="rol_operacoes_topico_divisao">Divisão</h2>
         <h3>Cálculo da divisão</h3>
 
-id="operacoes_topico"
 
-<h1>Contextos de utilização do Sistema Decimal</h1>
-    <h3>Sistema Monetário</h3>
-    <h3>Sistema de Medida</h3>
-    <h3>Identificação de Pessoa Física</h3>
 
-id="utilização_topico"
-
-<h1>Uso do dia a dia</h1>
-    <h4>Na cantina da escola ou na padaria</h4>
-    <h4>Medidas</h4>
-    <h4>Brinquedos</h4>  
-
-id="diario_topico"
-
-<h1>Uso na Computação</h1>
-
-id="computacao_topico"
-
-<h2>Idealizadores do Site</h2>
-id="sobre_topico"
+ <li><a href="imagem</a></li>
+ <li><a href="imagem</a></li>
+ <li><a href="imagem</a></li>
+ 
+ <li><a href="imagem></li>
+ <li><a href="imagem></li>
+ <li><a href="imagem></li>
+ <li><a href="imagem></li>
 
 
 
 
-id="surgimento_topico"     
-id="importancia_topico"
-id="operacoes_topico"
-id="utilização_topico"
-id="diario_topico"
-id="computacao_topico"
-id="sobre_topico"
 
 
-<li><a href="#surgimento_topico">surgimento</a></li>
-<li><a href="#importancia_topico">importancia</a></li>
-<li><a href="#operacoes_topico">operacoes</a></li>
-<li><a href="#utilização_topico">utilização</a></li>
-<li><a href="#diario_topico">diario</a></li>
-<li><a href="#computacao_topico">computacao</a></li>
-<li><a href="#sobre_topico">sobre</a></li>
+
+
+<h1 id="rol_utilização_topico">Contextos de utilização do Sistema Decimal</h1>
+    <h3 id="rol_utilização_topico_monetario">Sistema Monetário</h3>
+    <h3 id="rol_utilização_topico_medida">Sistema de Medida</h3>
+    <h3 id="rol_utilização_topico_pessoa">Identificação de Pessoa Física</h3>
+
+id="rol_utilização_topico"
+
+<li><a href="imagem</a></li>
+<li><a href="imagem Monetário</a></h3>
+<li><a href="imagem de Medida</a></h3>
+<li><a href="imagem de Pessoa Física</a></h3>
+
+
+
+
+
+
+<h1 id="rol_diario_topico">Uso do dia a dia</h1>
+    <h4 id="rol_diario_topico_lanche">Na cantina da escola ou na padaria</h4>
+    <h4 id="rol_diario_topico_medidas">Medidas</h4>
+    <h4 id="rol_diario_topico_brinquedos">Brinquedos</h4>  
+
+id="rol_diario_topico"
+
+
+<li><a href="imagem cantina da escola ou na padaria</a></h4>
+<li><a href="imagem</a></h4>
+<li><a href="imagem</a></h4>  
+
+
+
+
+
+<h1 id="rol_computacao_topico">Uso na Computação</h1>
+
+id="rol_computacao_topico"
+
+
+
+
+
+
+<h2 id="rol_sobre_topico">Idealizadores do Site</h2>
+
+id="rol_sobre_topico"
+
+
+
+
+id="rol_surgimento_topico"     
+id="rol_importancia_topico"
+id="rol_operacoes_topico"
+id="rol_utilização_topico"
+id="rol_diario_topico"
+id="rol_computacao_topico"
+id="rol_sobre_topico"
+
+
+<li><a href="imagem">surgimento</a></li>
+<li><a href="imagem">importancia</a></li>
+<li><a href="imagem">operacoes</a></li>
+<li><a href="imagem">utilização</a></li>
+<li><a href="imagem">diario</a></li>
+<li><a href="imagem">computacao</a></li>
+<li><a href="imagem">sobre</a></li>
+
+
+
+

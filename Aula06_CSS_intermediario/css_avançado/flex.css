@@ -1,0 +1,28 @@
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+}
+
+section article{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    margin: 5px;
+    flex: 500px;    
+
+}
+
+table{
+    border: 5px solid rgb(0, 0, 0);
+    color: white;
+}
+
+
+table:hover{
+    border: 5px solid white;
+    color: rgb(255, 208, 0);
+
+}
+
+

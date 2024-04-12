@@ -5,62 +5,93 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="estilo.css">
-</head>
+  <link rel="stylesheet" href="estilo.css"> 
+  <link rel="shortcut icon" href="icons/favicon-mangabit.ico" type="image/x-icon">
+</head> 
 
-
-
-
-<section class="imagem_logo">
-  <img src="img/logo.png" style="height: 100px;" alt="Foto teste com as meninas" >
-</section>
 
 <!-- header com opções de rolagem para os tópicos-->
 <header>
 
-
   <!-- barra de navegação com classe e suas opções com destino de rolagem-->
+<h1 style="color: white; padding: 0 0 0 20px;">Manga Bit</h1>
+  
   <nav class="barra_de_navegacao">
     <ul>
       <!-- lista com os destinos-->
       <li><a href="#">Início</a></li>
 
-      <li><a href="#surgimento_topico">surgimento</a></li>
-      <li><a href="#importancia_topico">importancia</a></li>
-      <li><a href="#operacoes_topico">operacoes</a></li>
-      <li><a href="#utilização_topico">utilização</a></li>
-      <li><a href="#diario_topico">diario</a></li>
-      <li><a href="#computacao_topico">computacao</a></li>
-      <li><a href="#sobre_topico">sobre</a></li>
+      <li><a href="#rol_surgimento_topico">surgimento</a></li>
+      <li><a href="#rol_importancia_topico">importancia +</a>
+        <!-- <ul>
+          <li>
+            <a href="#importancia_topico_1">Cotidiano</a>
+            <a href="#importancia_topico_2">Unidades</a>
+            <a href="#importancia_topico_3">Sistema</a>
+          </li>
+        </ul> -->
+      </li>
+      <!-- <li>
+        <a href="#operacoes_topico">Operações +</a>
+        <li><a href="operacoes_topico_unidade">Unidade</a></li>
+        <li><a href="operacoes_topico_dezena">Dezena</a></li>
+        <li><a href="operacoes_topico_centena">Centena</a></li>
+        <li>
+          <a>Operações +</a>
+          <li><a href="operacoes_topico_adicao"></a></li>
+          <li><a href="operacoes_topico_subtracao"></a></li>
+          <li><a href="operacoes_topico_multiplicacao"></a></li>
+          <li><a href="operacoes_topico_divisao"></a></li>
+        </li> -->
+      </li>
+      <li><a href="#rol_utilização_topico">utilização</a></li>
+      <li><a href="#rol_diario_topico">diario</a></li>
+      <li><a href="#rol_computacao_topico">computacao</a></li>
+      <li><a href="#rol_sobre_topico">sobre</a></li>
       </formato_header>
     </ul>
   </nav>
 
 </header>
 
-
-
-
-
-
-
-
-
-
-
-
-
 <body>
 
-  <!-- parte de debora-->
 
-  <section class="topicos" id="hist-sist-decimal"><!-- Tópico História do sistema decimal -->
+
+    <!-- Começo da folha de rosto do site -->
+
+
+    
+    <section class="hero-site">
+      <div class="estrutura-hero">
+        <div class="linha">
+          <div class="coluna">
+            <h2>"Os problemas são problemas demais se não correr atrás da maneira certa de solucionar"</h2>
+            <p id="autor">Chico Science</p>
+            <p>O futuro é agora</p>
+          </div>
+          <div class="coluna">
+            <img src="imgs/logo-mangabit-2.png" alt="hero-imagem" class="hero-imagem">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Começo da folha de rosto do site -->
+    <!-- Começo do tópico de contexto de utilização -->
+
+    <!-- parte de debora-->
+
+<p id="rol_surgimento_topico"> </p>
+
+  <section class="topico" id="folha-topico"> <!-- Tópico História do sistema decimal -->
     <div>
       <!--Classe para as imagens decorativas do site -->
-      <div class="imagem_decoraçaosite">
-        <img src="img/imagemdecorativa1.jpg" alt="imagem decorativa" </div>
-        <h1> De onde surgiu o sistema decimal? </h1>
-
+      <div class="imagem_decoraçaosite" >
+        <img src="img/imagemdecorativa1.jpg" alt="imagem decorativa">
+      </div>
+        <h1 > De onde surgiu o sistema decimal? </h1>
+        <div class="paragrafo_topico">
         <p><!--Parágrafo introdutório-->
           Desde os primórdios da civilização, surge a necessidade de contagem para o convívio em sociedade, indo do
           apuramento de votos da primeira democracia realizada na Grécia antiga, até a quantidade de mercadoria comprada
@@ -85,16 +116,17 @@
           para os intelectuais europeus e assim para o mundo todo.
         </p>
       </div>
+      </div>
       <div class="curiosidade">
         <!--Parte da curiosidade em relação a hístoria do sistema decimal, colocada em lista não ordenada, melhor como entendimento de tópico, sujeito a alteração-->
-        <h2> Curiosidade</h2>
+        <h2 id="titulo_curiosidade"> Curiosidade</h2>
         <ul>
           <li>
             Uma tabela feita de barro na antiga Suméria e encontrada por arqueólogos se caracteriza por ser uma das mais
             antigas fontes matemáticas já encontradas pelo homem, antecedendo o sistema decimal. A tabela demonstra que
             o sistema de contagem era feito pela base 60(Base sexagenário).
 
-            <div class="imagem">
+            <div id="imagem-curiosidade">
               <!--Classe feits apenas para imagens-->
               <!--A imagem é de domínio público-->
               <img src="img/curiosidade1_históriadosd.jpg" alt="Tabela sumérica">
@@ -107,16 +139,18 @@
 
       </div>
 
+<p id="rol_importancia_topico"> </p>
+
   </section>
-  <section class="topicos" id="import-sist-decimal"> <!--Tópico sobre a importãncia do sistema digital-->
+  <section class="topico" id="import-sist-decimal"> <!--Tópico sobre a importãncia do sistema digital-->
     <div>
-      <h1>A importãncia do sistema decimal </h1>
+      <h1 id="importancia_topico">A importãncia do sistema decimal </h1>
       <p>
         A utilização do sistema digital serviu de grande contribuição para o progresso das ciências exatas que existem
         atualmente, desde os computadores até a criação do sistema bancário, a criação do sitema de base 10 deu a
         assistência necessária para o crescimento de várias partes da sociedade, tais quais:
       </p>
-      <div class="notas_do_topico">
+      <div id="notas_do_topico">
         <!--Coloquei um div separado para os tópicos, porque vou fazer a estilização na forma de notas ou post-its-->
         <ul>
           <li>
@@ -154,22 +188,13 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
+<p id="rol_operacoes_topico"> </p>
 
   <!-- Iniciando o tópico do que é o sistema decimal -->
-  <section class="topicos" id="decimal-base">
-    <div class="conteudo-topico">
-      <div class="texto">
-        <h1>O que é a Base Decimal?</h1>
+  <!-- <section class="topicos" id="decimal-base">
+    <div class="conteudo-topico"> -->
+      <div class="topico">
+        <h1 id="operacoes_topico">O que é a Base Decimal?</h1>
         <p>
           O sistema numérico que utilizamos hoje é o sistema de base decimal, ou seja, utilizamos 10 símbolos para
           representar os números. Esse sistema também é conhecido como sistema indo-arábico.</p>
@@ -215,9 +240,7 @@
 
 
 
-
-
-
+<div class="topico"> 
 
   <!-- Operação 1: adição-->
   <h2>Adição</h2>
@@ -455,74 +478,75 @@
   </div>
   </div>
   </section>
-
+</div>
   <!-- Fim do tópico de operações -->
 
+<p id="rol_utilização_topico"> </p>
 
-
-
-
-
-
-  <body>
     <!-- Começo do tópico de contexto de utilização -->
-    <section class="topicos" id="util-sist-decimal">
-      <div class="conteudo-topico">
-        <div class="texto">
-          <h1>Contextos de utilização do Sistema Decimal</h1>
-          <p>O sistema decimal está presente em várias situações do nosso cotidiano, diretamente ou indiretamente
-            falando.
-            Quando precisamos fazer cálculos, medir algo, fazer um pagamento, fazer uma compra, em diversas situações.
-            Os
-            números estão presentes em tudo que fazemos, eles nos descrevem, eles nos identificam nas nossas diferentes
-            etapas da vida, o peso, a altura, o número do sapato, nossa casa é localizada por um número e por um CEP.
-            Enfim, são diversos os exemplos em que encontramos a matemática e o sistema decimal inseridos na nossa vida.
-          </p>
-          <p>Aqui estão algumas das aplicações desses números:</p>
-        </div>
-        <div class="cartoes-imagem">
-          <ul class="estrutura-cartoes">
-            <li class="cartao">
-              <img src="img/" alt="imgReais">
-              <h3>Sistema Monetário</h3>
-              <p>O nosso sistema monetário é de base 10, ou seja, cada valor equivale a uma representação decimal. Por
-                exemplo: 10 reais equivale a uma dezena, 10 notas de 10 reais equivalem a uma centena.</p>
-            </li>
-            <li class="cartao">
-              <img src="img/" alt="imgTrena">
-              <h3>Sistema de Medida</h3>
-              <p>O nosso sistema de medidas também é de base 10, conseguimos medir em diversas unidades como
-                centímetros,
-                metros, kilometros, todos relacionados proporcionalmente. Por exemplo: 1 metro é igual a 100
-                centímetros,
-                1 kilometro é igual a 1000 metros.</p>
-            </li>
-            <li class="cartao">
-              <img src="img/" alt="imgCPF">
-              <h3>Identificação de Pessoa Física</h3>
-              <p>O Cadastro de Pessoa Física é o registro de pessoas naturais idependentemente de idade ou
-                nacionalidade.
-                Ele é um número composto por 11 dígitos decimais, sendo os 8 primeiros dígitos gerados aleatoriamente, o
-                nono dígito relativo a região fiscal responsável pela inscrição e os 2 últimos dígitos são dígitos
-                verificadores calculados de acordo com um algoritmo definido pela Receita Federal e publicamente
-                conhecido.</p>
-            </li>
-          </ul>
-        </div>
+    <section class="topico" id="util-sist-decimal">
+      <div class="folha-topico">
+        <p id="rol_util_sist_dec"> </p> 
+        <h1 id="titulo_topico"><img src="imgs/mao (5) (copy).png" width="100px" height="100px">Contextos de utilização do Sistema Decimal</h1>
+        <p id="paragrafo_topico">O sistema decimal está presente em várias situações do nosso cotidiano, diretamente ou indiretamente falando.
+          Quando precisamos fazer cálculos, medir algo, fazer um pagamento, fazer uma compra, em diversas situações. Os
+          números estão presentes em tudo que fazemos, eles nos descrevem, eles nos identificam nas nossas diferentes
+          etapas da vida, o peso, a altura, o número do sapato, nossa casa é localizada por um número e por um CEP. Enfim,
+          são diversos os exemplos em que encontramos a matemática e o sistema decimal inseridos na nossa vida. </p>
+        <p>Aqui estão algumas das aplicações desses números:</p>
+      </div>
+      <div class="cartoes-imagens">
+        <ul class="estrutura-cartoes">
+          <li class="cartao-topico-util-sist-dec">
+            <div class="conteudo-cartao">
+              <div class="frente-cartao" id="Real">
+                <h3 class="titulo-conteudo">Sistema Monetário</h3>
+              </div>
+              <div class="verso-cartao">
+                <p>O nosso sistema monetário é de base 10, ou seja, cada valor equivale a uma representação decimal. Por
+                  exemplo: 10 reais equivale a uma dezena, 10 notas de 10 reais equivalem a uma centena.</p>
+              </div>
+            </div>
+          </li>
+          <li class="cartao-topico-util-sist-dec">
+            <div class="conteudo-cartao">
+              <div class="frente-cartao" id="Medida">
+                <h3 class="titulo-conteudo">Sistema de Medida</h3>
+              </div>
+              <div class="verso-cartao">
+                <p>O nosso sistema de medidas também é de base 10, conseguimos medir em diversas unidades como
+                  centímetros, metros, quilômetros, todos relacionados proporcionalmente. Por exemplo: 1 metro é igual a
+                  100 centímetros, 1 quilômetro é igual a 1000 metros.</p>
+              </div>
+            </div>
+          </li>
+          <li class="cartao-topico-util-sist-dec">
+            <div class="conteudo-cartao">
+              <div class="frente-cartao" id="CPF">
+                <h3 class="titulo-conteudo">Identificação de Pessoa Física</h3>
+              </div>
+              <div class="verso-cartao">
+                <p>O Cadastro de Pessoa Física é o registro de pessoas naturais independentemente de idade ou
+                  nacionalidade. Ele é um número composto por 11 dígitos decimais, sendo os 8 primeiros dígitos gerados
+                  aleatoriamente, o nono dígito relativo a região fiscal responsável pela inscrição e os 2 últimos dígitos
+                  são dígitos verificadores calculados de acordo com um algoritmo definido pela Receita Federal e
+                  publicamente conhecido.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
+    
     <!-- Fim do tópico de contexto de utilização -->
 
 
-
-
-
-
+<p id="rol_diario_topico"> </p>
     <!-- Iniciando o tópico uso do dia a dia -->
-    <section class="topicos" id="day-to-day">
-      <div class="conteudo-topico">
-        <div class="texto">
-          <h1>Uso do dia a dia</h1>
+     <section class="topico" id="day-to-day">
+      <!--<div class="conteudo-topico"> -->
+        <div>
+          <h1 id="diario_topico">Uso do dia a dia</h1>
           <p>O sistema decimal, por ser o mais comum e familiar, está presente em muitos aspectos do nosso dia a dia.
           </p>
           <p>Vejamos algumas situações que você utiliza o sistema decimal:</p>
@@ -563,11 +587,11 @@
 
 
 
-
+<p id="rol_computacao_topico"></p>
 
 
     <!-- Começo do tópico de uso na computação -->
-    <section class="topicos" id="usoComp-sist-decimal">
+    <section class="topico" id="usoComp-sist-decimal">
       <div class="conteudo-topicos" id="conteudo-usocomp-sist-decimal">
         <h1>Uso na Computação</h1>
         <p>Embora os computadores usem principalmente o sistema binário para operações internas, o sistema decimal
@@ -607,131 +631,107 @@
     <!-- Fim do tópico de uso na computação -->
 
 
+<p id="rol_sobre_topico"> </p>
+
+ <!-- Começo das apresentações do grupo -->
+
+ <section class="topico" id="apresentacao">
+  <div class="texto-apresentacao">
+    <h2 id="titulo-apresentacao">Idealizadores do Site</h2>
+    <p>Conheça mais sobre os idealizadores do site, suas redes e seus projetos!</p>
+  </div>
+  <div class="cartoes-apresentacao">
+    <ul class="estrutura-cartoes-apresentacao">
+      <li class="cartao-apresentacao">
+        <img src="imgs/fotomirela.jpg" alt="imgMirella">
+        <h3>Mirella Santana</h3>
+        <div id="redes-sociais">
+              <a href=" https://www.linkedin.com/in/mirellaebs/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> /mirellaebs</a>
+              <a href="https://github.com/mihebs" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github-alt"></i> /mihebs</a>
+        </div>
+      </li>
+      <li class="cartao-apresentacao">
+        <img src="imgs/fotoenio.jpeg" alt="imgEnio">
+        <h3>Ênio Bazante</h3>
+        <div id="redes-sociais">
+              <a href=" https://www.linkedin.com/in/eniobazante/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> /eniobazante</a>
+              <a href="https://github.com/EnioBazante" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github-alt"></i> /EnioBazante</a>
+        </div>
+      </li>
+      <li class="cartao-apresentacao">
+        <img src="imgs/fotodeb.jpg" alt="imgDebora">
+        <h3>Débora Buriti</h3>
+        <div id="redes-sociais">
+              <a href=" https://www.linkedin.com/in/débora-buriti-b645602bb/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+              <a href="https://github.com/debburiti" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github-alt"></i> /debburiti</a>
+        </div>
+      </li>
+      <li class="cartao-apresentacao">
+        <img src="imgs/fotoleo.jpg" alt="imgLeo">
+        <h3>Leonardo Ibiapina</h3>
+        <div id="redes-sociais">
+              <a href=" https://www.linkedin.com/in/leonardo-ibiapina-642077218/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> /leo-ibiapina</a>
+              <a href="https://github.com/ibiapleo" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github-alt"></i> /ibiapleo</a>
+        </div>
+      </li>
+      <li class="cartao-apresentacao">
+        <img src="imgs/fotomyllena.jpeg" alt="imgMyllena">
+        <h3>Myllena Navarro</h3>
+        <div id="redes-sociais">
+              <a href=" https://www.linkedin.com/in/myllena-navarro-8a1869209/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+              <a href="https://github.com/Myllena-navarro" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github-alt"></i> /Myllena-navarro</a>
+        </div>
+      </li>
+  </div>
+</section>
 
 
 
-    <!-- Começo das apresentações do grupo -->
-    <section class="apresentacao">
-      <div class="titulo-apresentacao">
-        <h2>Idealizadores do Site</h2>
-        <p>Conheça mais sobre os idealizadores do site, suas redes e seus projetos!</p>
-      </div>
-      <div class="cartoes-apresentacao">
-        <ul class="estrutura-cartoes">
-          <li class="cartao">
-            <img src="img/" alt="imgMirella">
-            <h3>Mirella Santana</h3>
-            <a href="https://www.linkedin.com/in/mirellaebs/">Linkedin</a>
-            <a href="https://github.com/mihebs">Github</a>
-          </li>
-          <li class="cartao">
-            <img src="img/" alt="imgEnio">
-            <h3>Ênio Bazante</h3>
-            <a href="https://www.linkedin.com/in/eniobazante/">Linkedin</a>
-            <a href="https://github.com/EnioBazante">Github</a>
-          </li>
-          <li class="cartao">
-            <img src="img/" alt="imgDebora">
-            <h3>Débora Buriti</h3>
-            <a href="https://www.linkedin.com/in/débora-buriti-b645602bb/">Linkedin</a>
-            <a href="https://github.com/debburiti">Github</a>
-          </li>
-          <li class="cartao">
-            <img src="img/" alt="imgLeo">
-            <h3>Leonardo Ibiapina</h3>
-            <a href="https://www.linkedin.com/in/leonardo-ibiapina-642077218/">Linkedin</a>
-            <a href="https://github.com/ibiapleo">Github</a>
-          </li>
-          <li class="cartao">
-            <img src="img/" alt="imgMyllena">
-            <h3>Myllena Navarro</h3>
-            <a href="https://www.linkedin.com/in/myllena-navarro-8a1869209/">Linkedin</a>
-            <a href="https://github.com/Myllena-navarro">Github</a>
-          </li>
-      </div>
-    </section>
-    <!-- Fim das apresentações do grupo -->
+<hr>
 
+    
+  <footer>
+    <section>
+    <label>
+      Nome:
+    </label>
+    
+    <input type="text" class="caixa_de_input">
+    
+    <label>
+      Email:
+    </label>
+    
+    <input type="email" class="caixa_de_input">
+    
+    
+    <label>
+      Assunto:
+    </label>
+    
+    <select class="caixa_de_input">
+      <option>
+        Relatar erros
+      </option>
+      
+      <option>
+        Feedback
+      </option>
+      
+    </select>
+    <label>
+      Feedback:
+    </label>
+    
+    <textarea cols="19" rows="10" class="caixa_de_input" style="height: auto;"></textarea>
+  
+  <button type="submit" style="
+  "> Enviar</button>
 
-
-
-
-
-    <!-- tabela que organiza a caixa de feedback do footer-->
-    <section class="footer">
-    <table>
-      <form>
-        <tr>
-          <td>
-            <label>
-              Nome:
-            </label>
-          </td>
-          <td>
-            <input type="text">
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <label>
-              Email:
-            </label>
-          </td>
-          <td>
-            <input type="email">
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <label>
-              Assunto:
-            </label>
-          </td>
-
-
-
-          <td>
-            <select>
-              <option>
-                Relatar erros
-              </option>
-
-              <option>
-                Feedback
-              </option>
-
-            </select>
-          </td>
-
-        </tr>
-
-
-
-        <tr>
-
-
-        </tr>
-
-        <tr>
-          <td>
-            <label>
-              Feedback:
-            </label>
-
-          </td>
-          <td>
-            <textarea cols="19" rows="10"></textarea>
-          </td>
-        </tr>
-      </form>
-    </table>
-  </section/>
-
-
-
+  </section>
+</footer>
+    
   </body>
-
-
-</html>
+  
+  
+  </html>
