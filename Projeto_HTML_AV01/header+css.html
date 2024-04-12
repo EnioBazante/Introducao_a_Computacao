@@ -4,9 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Sistema Decimal</title>
   <link rel="stylesheet" href="estilo.css"> 
-  <link rel="shortcut icon" href="icons/favicon-mangabit.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="imgs/favicon-mangabit.png" type="image/png">
+  <script src="https://kit.fontawesome.com/500fc882aa.js" crossorigin="anonymous"></script> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head> 
 
 
@@ -31,9 +35,9 @@
           </li>
         </ul> -->
       </li>
-      <!-- <li>
-        <a href="#operacoes_topico">Operações +</a>
-        <li><a href="operacoes_topico_unidade">Unidade</a></li>
+      <li>
+        <a href="#rol_operacoes_topico">Operações +</a>
+        <!--<li><a href="operacoes_topico_unidade">Unidade</a></li>
         <li><a href="operacoes_topico_dezena">Dezena</a></li>
         <li><a href="operacoes_topico_centena">Centena</a></li>
         <li>
@@ -85,14 +89,10 @@
 <p id="rol_surgimento_topico"> </p>
 
   <section class="topico" id="folha-topico"> <!-- Tópico História do sistema decimal -->
-    <div>
-      <!--Classe para as imagens decorativas do site -->
-      <div class="imagem_decoraçaosite" >
-        <img src="img/imagemdecorativa1.jpg" alt="imagem decorativa">
-      </div>
-        <h1 > De onde surgiu o sistema decimal? </h1>
-        <div class="paragrafo_topico">
-        <p><!--Parágrafo introdutório-->
+        <h1 id="titulo_topico"> <img src="imgs/mao.png" width="100px" height=100px alt="maoum">De onde surgiu o sistema decimal? </h1>
+        <div id="paragrafo_topico">
+        <!--Parágrafo introdutório-->
+          <p>
           Desde os primórdios da civilização, surge a necessidade de contagem para o convívio em sociedade, indo do
           apuramento de votos da primeira democracia realizada na Grécia antiga, até a quantidade de mercadoria comprada
           pelos colonos na Índia. Nesse sentido, nada nos traz a nossa mémoria, como instrumento de contagem as mãos do
@@ -115,13 +115,12 @@
           professor Árabe, escreveu em 1202 o livro "Liber Abaci"("Livro de Cálculo"), disseminando o sistema decimal
           para os intelectuais europeus e assim para o mundo todo.
         </p>
-      </div>
-      </div>
+        </div>
       <div class="curiosidade">
         <!--Parte da curiosidade em relação a hístoria do sistema decimal, colocada em lista não ordenada, melhor como entendimento de tópico, sujeito a alteração-->
         <h2 id="titulo_curiosidade"> Curiosidade</h2>
-        <ul>
-          <li>
+        <ul class="subtopicos">
+          <li id="paragrafo_topico">
             Uma tabela feita de barro na antiga Suméria e encontrada por arqueólogos se caracteriza por ser uma das mais
             antigas fontes matemáticas já encontradas pelo homem, antecedendo o sistema decimal. A tabela demonstra que
             o sistema de contagem era feito pela base 60(Base sexagenário).
@@ -144,7 +143,8 @@
   </section>
   <section class="topico" id="import-sist-decimal"> <!--Tópico sobre a importãncia do sistema digital-->
     <div>
-      <h1 id="importancia_topico">A importãncia do sistema decimal </h1>
+      <h1 id="titulo_topico">A importância do sistema decimal </h1>
+      <div id="paragrafo_topico">
       <p>
         A utilização do sistema digital serviu de grande contribuição para o progresso das ciências exatas que existem
         atualmente, desde os computadores até a criação do sistema bancário, a criação do sitema de base 10 deu a
@@ -181,6 +181,7 @@
           </li>
         </ul>
       </div>
+      </div>
 
     </div>
 
@@ -194,7 +195,8 @@
   <!-- <section class="topicos" id="decimal-base">
     <div class="conteudo-topico"> -->
       <div class="topico">
-        <h1 id="operacoes_topico">O que é a Base Decimal?</h1>
+        <h1 id="titulo_topico">O que é a Base Decimal?</h1>
+        <div id="paragrafo_topico">
         <p>
           O sistema numérico que utilizamos hoje é o sistema de base decimal, ou seja, utilizamos 10 símbolos para
           representar os números. Esse sistema também é conhecido como sistema indo-arábico.</p>
@@ -233,6 +235,7 @@
         <p>Percebeu que no número 365, o algarismo 3 é a centena, já no número 563, o algarismo 3 é a unidade.</p>
         <p>Para ficar mais claro, o algarismo 3 na centena equivale ao número 300, já o algarismo 3 na unidade equivale
           ao número 3. Percebeu que só mudando a posição de um mesmo algarismo eu posso ter valores diferentes?!</p>
+        </div>
       </div>
     </div>
   </section>
@@ -240,10 +243,10 @@
 
 
 
-<div class="topico"> 
-
+<section class="topico"> 
   <!-- Operação 1: adição-->
-  <h2>Adição</h2>
+  <h2 id="titulo_topico">Adição</h2>
+  <div id="paragrafo_topico">
   <p>A adição é uma das quatro operações básicas da matemática, geralmente sendo a primeira a ser estudada.
     A adição envolve adicionar, acrescentar, juntar dois ou mais números. </p>
   <p>Essa operação é indicada pelo símbolo + e possui a seguinte estrutura: </p>
@@ -280,7 +283,7 @@
     Como o resultado da soma das dezenas é 6 e não ultrapassa o limite, não é necessário realizar o mesmo procedimento
     na casa das centenas.</p>
   <h3>Propriedades</h3>
-  <ul>
+  <ul class="subtopicos">
     <li><b>Comutativa</b></li>
     <p>A ordem das parcelas, em uma soma, não altera seu resultado.</p>
     <pre>
@@ -304,9 +307,10 @@
                         11 + 0 = 11
                     </pre>
   </ul>
-
+  </div>
   <!-- Operação 2: subtração-->
-  <h2>Subtração</h2>
+  <h2 id="titulo_topico">Subtração</h2>
+  <div id="paragrafo_topico">
   <p>Subtrair consiste em diminuir uma certa quantia de outra já existente. A subtração é uma entre as quatro operações
     básicas da matemática,
     sendo a segunda operação a ser estudada. Também chamamos de inverso da adição. </p>
@@ -344,7 +348,7 @@
                           7 - 3 = 4 e 3 - 7 = -4
                     4 - (3 - 5) = 6 e (4 - 3) - 5 = -4
                 </pre>
-  <ul>
+  <ul class="subtopicos">
     <li><b>Elemento neutro</b></li>
     <p>Assim como na adição, o 0 também é o elemento neutro da subtração. Diminuir zero de um número qualquer resultará
       no próprio número.</p>
@@ -353,9 +357,10 @@
                         11 - 0 = 11
                     </pre>
   </ul>
-
+  </div>
   <!-- Operação 3: multiplicação-->
-  <h2>Multiplicação</h2>
+  <h2 id="titulo_topico">Multiplicação</h2>
+  <div id="paragrafo_topico">
   <p>Conhecemos como multiplicação a soma sucessiva de um número por ele mesmo.
     Para fazer a representação da multiplicação entre dois números, utilizamos o símbolo “×” ou o símbolo “·”.</p>
   <p>O resultado da multiplicação é conhecido como produto, e os números que serão multiplicados são chamados de
@@ -388,7 +393,7 @@
   <p>Multiplicando 7 x 2 temos 14, ou seja, o 4 fica no resultado e o 1 é colocado acima do 3, para ser somado à
     multiplicação. Continuando, temos 3 x 2 = 6, + 1 = 7.</p>
   <h3>Propriedades</h3>
-  <ul>
+  <ul  class="subtopicos">
     <li><b>Comutativa</b></li>
     <p>Em uma multiplicação, a ordem dos fatores não altera o produto.</p>
     <pre>
@@ -418,13 +423,14 @@
                             8 + 12 = 20 
                     </pre>
   </ul>
-
+  </div>
   <!-- Operação 4: divisão-->
-  <h2>Divisão</h2>
+  <h2 id="titulo_topico">Divisão</h2>
+  <div id="paragrafo_topico">
   <p>Assim como a adição possui sua operação inversa, que é a subtração, a multiplicação também possui a sua operação
     inversa: a divisão. A divisão é uma operação matemática fundamental que envolve a distribuição
     de uma quantidade em partes iguais. Na divisão, temos três componentes principais: </p>
-  <ul>
+  <ul class="subtopicos">
     <li><b>Dividendo:</b> o número que está sendo dividido.</li>
     <li><b>Divisor:</b> o número pelo qual o dividendo está sendo dividido.</li>
     <li><b>Quociente:</b> o resultado da divisão, ou seja, quantas vezes o divisor cabe no dividendo.</li>
@@ -434,7 +440,7 @@
                     14 / 2 = 7
                 </pre>
   <p>Em uma divisão também pode existir o resto, que é o número que não pode ser dividido igualmente.</p>
-  <ul>
+  <ul class="subtopicos">
     <li><b>Divisão exata:</b> quando o divisor divide o dividendo sem deixar resto. </li>
     <li><b>Divisão com resto:</b> quando o divisor não divide o dividendo sem deixar resto.</li>
   </ul>
@@ -443,7 +449,7 @@
                 </pre>
   <h3>Cálculo da divisão</h3>
   <p>As regras para dividir números inteiros são:</p>
-  <ol>
+  <ol class="subtopicos">
     <li>Organizar a operação identificando o dividendo e o divisor;</li>
     <li>Encontrar um número que multiplicado pelo divisor seja igual ou próximo ao dividendo;</li>
     <li>Caso o número seja menor que o dividendo subtraia um pelo outro e continue a divisão com o resto até que não
@@ -451,7 +457,7 @@
   </ol>
   <h3>Propriedades</h3>
   <h4>Atenção!</h4>
-  <ol>
+  <ol class="subtopicos">
     <li>A divisão não é associativa e também não é comutativa. A ordem da divisão altera seu resultado final;</li>
     <pre>
                          4 / 2 = 2
@@ -467,7 +473,7 @@
                         12 / 6 = 2                
                    </pre>
   </ol>
-  <ul>
+  <ul class="subtopicos">
     <li><b>Elemento neutro</b></li>
     <p>Todo número dividido por 1 tem como resultado o próprio número.</p>
     <pre>
@@ -479,6 +485,8 @@
   </div>
   </section>
 </div>
+</div>
+</div>
   <!-- Fim do tópico de operações -->
 
 <p id="rol_utilização_topico"> </p>
@@ -487,7 +495,7 @@
     <section class="topico" id="util-sist-decimal">
       <div class="folha-topico">
         <p id="rol_util_sist_dec"> </p> 
-        <h1 id="titulo_topico"><img src="imgs/mao (5) (copy).png" width="100px" height="100px">Contextos de utilização do Sistema Decimal</h1>
+        <h1 id="titulo_topico"><img src="imgs/mao (5).png" width="100px" height="100px">Contextos de utilização do Sistema Decimal</h1>
         <p id="paragrafo_topico">O sistema decimal está presente em várias situações do nosso cotidiano, diretamente ou indiretamente falando.
           Quando precisamos fazer cálculos, medir algo, fazer um pagamento, fazer uma compra, em diversas situações. Os
           números estão presentes em tudo que fazemos, eles nos descrevem, eles nos identificam nas nossas diferentes
@@ -546,7 +554,7 @@
      <section class="topico" id="day-to-day">
       <!--<div class="conteudo-topico"> -->
         <div>
-          <h1 id="diario_topico">Uso do dia a dia</h1>
+          <h1 id="titulo_topico">Uso do dia a dia</h1>
           <p>O sistema decimal, por ser o mais comum e familiar, está presente em muitos aspectos do nosso dia a dia.
           </p>
           <p>Vejamos algumas situações que você utiliza o sistema decimal:</p>
@@ -593,7 +601,7 @@
     <!-- Começo do tópico de uso na computação -->
     <section class="topico" id="usoComp-sist-decimal">
       <div class="conteudo-topicos" id="conteudo-usocomp-sist-decimal">
-        <h1>Uso na Computação</h1>
+        <h1 id="titulo_topico">Uso na Computação</h1>
         <p>Embora os computadores usem principalmente o sistema binário para operações internas, o sistema decimal
           desempenha um papel importante em muitos aspectos da computação moderna,
           especialmente quando se trata de representação de dados para humanos e interação com sistemas externos.</p>
@@ -691,18 +699,23 @@
 
     
   <footer>
+
+        <h1> Deixe seu Feedback: </h1>
+      </div>
+    </section>
+    
     <section>
     <label>
       Nome:
     </label>
     
-    <input type="text" class="caixa_de_input">
+    <input placeholder=" Escreva seu Nome Completo:" type="text" class="caixa_de_input" r>
     
     <label>
       Email:
     </label>
     
-    <input type="email" class="caixa_de_input">
+    <input placeholder=" Digite seu E-mail:" type="email" class="caixa_de_input">
     
     
     <label>
@@ -723,10 +736,9 @@
       Feedback:
     </label>
     
-    <textarea cols="19" rows="10" class="caixa_de_input" style="height: auto;"></textarea>
+    <textarea placeholder=" Digite o seu comentário: " cols="19" rows="10" class="caixa_de_input" style="height: auto;"></textarea>
   
-  <button type="submit" style="
-  "> Enviar</button>
+  <button type="submit"> Enviar</button>
 
   </section>
 </footer>
