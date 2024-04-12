@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="icons/favicon-mangabit.ico" type="image/x-icon">   
 </head> 
 
 
@@ -18,14 +19,14 @@
 <header>
 
   <!-- barra de navegação com classe e suas opções com destino de rolagem-->
-<h1 style="color: white; padding: 0 0 0 20px;">Manga Bit</h1>
-  
+  <div class="container-logo-e-nome"><a style="text-decoration: none;" href="#">
+<h1 style="color: white; padding: 0 0 0 20px;"><img src="imgs/favicon-mangabit.png" alt="" id="icon-header">MangaBit</h1></a>
+</div>
   <nav class="barra_de_navegacao">
     <ul>
       <!-- lista com os destinos-->
-      <li><a href="#">Início</a></li>
 
-      <li><a href="#rol_surgimento_topico">surgimento</a></li>
+      <li><a  href="#rol_surgimento_topico">surgimento</a></li>
       <li><a href="#rol_importancia_topico">importancia +</a>
         <!-- <ul>
           <li>
@@ -65,7 +66,7 @@
     <!-- Começo da folha de rosto do site -->
 
 
-    
+
     <section class="hero-site">
       <div class="estrutura-hero">
         <div class="linha">
@@ -80,7 +81,7 @@
         </div>
       </div>
     </section>
-    
+
     <!-- Começo da folha de rosto do site -->
     <!-- Começo do tópico de contexto de utilização -->
 
@@ -141,9 +142,9 @@
 <p id="rol_importancia_topico"> </p>
 
   </section>
-  <section class="topico" id="import-sist-decimal"> <!--Tópico sobre a importãncia do sistema digital-->
+  <section class="topico" id="import-sist-decimal"> <!--Tópico sobre a importãncia do sistema decimal-->
     <div>
-      <h1 id="titulo_topico">A importância do sistema decimal </h1>
+      <h1 id="titulo_topico"><img src="imgs/mao-dois.png" width="100px" height=100px alt="maoum">A importância do sistema decimal </h1>
       <div id="paragrafo_topico">
       <p>
         A utilização do sistema digital serviu de grande contribuição para o progresso das ciências exatas que existem
@@ -152,7 +153,7 @@
       </p>
       <div id="notas_do_topico">
         <!--Coloquei um div separado para os tópicos, porque vou fazer a estilização na forma de notas ou post-its-->
-        <ul>
+        <ul class="subtopicos">
           <li>
             <h3>A vida em cotidiano</h3>
             <p>
@@ -195,7 +196,7 @@
   <!-- <section class="topicos" id="decimal-base">
     <div class="conteudo-topico"> -->
       <div class="topico">
-        <h1 id="titulo_topico">O que é a Base Decimal?</h1>
+        <h1 id="titulo_topico"> <img src="imgs/mao-tres.png" width="100px" height=100px alt="maoum"> O que é a Base Decimal?</h1>
         <div id="paragrafo_topico">
         <p>
           O sistema numérico que utilizamos hoje é o sistema de base decimal, ou seja, utilizamos 10 símbolos para
@@ -244,15 +245,25 @@
 
 
 <section class="topico"> 
+    <h2 id="titulo_topico"><img src="imgs/mao-quatro.png" width="100px" height=100px alt="maoum">Operações</h2>
   <!-- Operação 1: adição-->
   <h2 id="titulo_topico">Adição</h2>
   <div id="paragrafo_topico">
   <p>A adição é uma das quatro operações básicas da matemática, geralmente sendo a primeira a ser estudada.
     A adição envolve adicionar, acrescentar, juntar dois ou mais números. </p>
   <p>Essa operação é indicada pelo símbolo + e possui a seguinte estrutura: </p>
-  <pre>
-                    1 + 2 = 3
-                </pre>
+
+  <div class="flipcard-operacoes">
+    <div class="flipcard-op-interno">
+      <div class="flipcard-op-frente">
+        <pre class="contas"><b>1 + 2 = 3</b></pre>
+      </div>
+      <div class="flipcard-op-verso">
+        <img src="imagens-operacoes/exemplo1.png" alt="Demonstrando a soma 1 + 2 = 3" style="width:300px;height:150px;">
+      </div>
+    </div>
+  </div>
+
   <p>O resultado de uma adição entre dois ou mais números é conhecido como soma, e os números a serem somados
     são conhecidos como parcelas (ou seja, no exemplo acima, o número 3 é a soma e os números 1 e 2 são as parcelas).
     Utilizamos a adição em diferentes ocasiões em nosso cotidiano, como, por exemplo, para contar objetos, ao realizar
@@ -262,22 +273,22 @@
     unidade,
     dezena com dezena, centena com centena, e assim sucessivamente, exemplo:</p>
   <pre>
-                      123
-                    + 321
-                     ____
-                      444
-                </pre>
+ 123
++321
+____
+ 444
+</pre>
   <p>Em algumas adições, o resultado da soma das unidades forma uma dezena, como no exemplo a seguir. Ao somar 7 + 4,
     temos 11.
     Para resolver esse problema, você colocará unidade abaixo de unidade e enviará a dezena para a próxima casa decimal
     das dezenas:</p>
   <pre>
-                         1
-                        227
-                      + 434
-                       ____
-                        661
-                  </pre>
+    1
+  227
++ 434
+ ____
+  661
+</pre>
   <p>A dezena que encontramos na soma das unidades agora será somada às outras dezenas. Dessa forma, calculamos 1 + 2 +
     3 = 6.
     Como o resultado da soma das dezenas é 6 e não ultrapassa o limite, não é necessário realizar o mesmo procedimento
@@ -287,25 +298,25 @@
     <li><b>Comutativa</b></li>
     <p>A ordem das parcelas, em uma soma, não altera seu resultado.</p>
     <pre>
-                        5 + 9 = 14 e 9 + 5 = 14
-                    </pre>
+5 + 9 = 14 e 9 + 5 = 14
+</pre>
 
     <li><b>Associativa</b></li>
     <p>Em uma adição com três ou mais parcelas, independentemente da ordem em que realizamos as somas, o resultado não
       será alterado.</p>
     <pre>
-                        10 + (5 + 3) = 18
-                        (10 + 5) + 3 = 18
-                        (10 + 3) + 5 = 18
-                    </pre>
+10 + (5 + 3) = 18
+(10 + 5) + 3 = 18
+(10 + 3) + 5 = 18
+</pre>
 
     <li><b>Elemento neutro</b></li>
     <p>Na adição, o 0 é chamado de elemento neutro. Ao realizar uma soma com o número 0, o resultado é sempre o próprio
       número.</p>
     <pre>
-                        5 + 0 = 5
-                        11 + 0 = 11
-                    </pre>
+5 + 0 = 5
+11 + 0 = 11
+</pre>
   </ul>
   </div>
   <!-- Operação 2: subtração-->
@@ -320,42 +331,42 @@
     estamos calculando são, respectivamente, o minuendo
     e o subtraendo. No exemplo abaixo, o 5 é o minuendo, o 2 é o subtraendo e o 3 é o resto (ou diferença).</p>
   <pre>
-                    5 - 2 = 3
+5 - 2 = 3
                 </pre>
   <h3>Cálculo da subtração</h3>
   <p>Assim como a adição, recorremos ao valor posicional dos números, ou seja, vamos subtrair unidade com unidade,
     dezena com dezena, centena com centena, e assim sucessivamente.</p>
   <pre>
-                      52
-                    - 11
-                     ____
-                      41
+  52
+- 11
+ ____
+  41
                 </pre>
   <p>Ao se deparar com uma subtração que não seja possível de ocorrer, como no caso abaixo, em que não é possível tirar
     5 dezenas de 3 dezenas, pegamos "emprestado", desmanchando uma centena do lado esquerdo.</p>
   <pre>
 
-                        432
-                      -  51
-                       ____
-                        381
+   432
+ -  51
+  _____
+   381
                   </pre>
   <h3>Propriedades</h3>
   <h4>Atenção!</h4>
   <p>Diferente da soma, a subtração não é associativa e nem comutativa. Isso acontece porque a ordem da operação irá
     influenciar no resultado final.</p>
   <pre>
-                          7 - 3 = 4 e 3 - 7 = -4
-                    4 - (3 - 5) = 6 e (4 - 3) - 5 = -4
+7 - 3 = 4 e 3 - 7 = -4
+4 - (3 - 5) = 6 e (4 - 3) - 5 = -4
                 </pre>
   <ul class="subtopicos">
     <li><b>Elemento neutro</b></li>
     <p>Assim como na adição, o 0 também é o elemento neutro da subtração. Diminuir zero de um número qualquer resultará
       no próprio número.</p>
     <pre>
-                        5 - 0 = 5
-                        11 - 0 = 11
-                    </pre>
+5 - 0 = 5
+11 - 0 = 11
+</pre>
   </ul>
   </div>
   <!-- Operação 3: multiplicação-->
@@ -367,28 +378,28 @@
     fatores.
     No exemplo abaixo, o 5 e o 3 são os fatores e o 15 é o produto. </p>
   <pre>
-                        5 x 3 = 15
-                    5 x 3 = 5 + 5 + 5
+5 x 3 = 15
+5 x 3 = 5 + 5 + 5
                 </pre>
   <h3>Cálculo da multiplicação</h3>
   <p>Primeiramente montamos a operação, colocando o número com maior quantidade de dígitos primeiro. Após isso,
     realizamos a multiplicação entre
     as unidades, depois entre as dezenas, centenas e assim por diante.</p>
   <pre>
-                      31
-                    x  4
-                     ___
-                     124 
+  31
+x  4
+ ___
+ 124 
                 </pre>
   <p>Quando a multiplicação entre os números resultarem em um número maior que 9, vamos colocar o último número do valor
     no produto e o que sobrou acima
     da casa da esquerda para somar com o próximo resultado.</p>
   <pre>
-                        1
-                        37
-                      x  2
-                       ____
-                        74
+  1
+    37
+  x  2
+   ____
+    74
                   </pre>
   <p>Multiplicando 7 x 2 temos 14, ou seja, o 4 fica no resultado e o 1 é colocado acima do 3, para ser somado à
     multiplicação. Continuando, temos 3 x 2 = 6, + 1 = 7.</p>
@@ -397,31 +408,29 @@
     <li><b>Comutativa</b></li>
     <p>Em uma multiplicação, a ordem dos fatores não altera o produto.</p>
     <pre>
-                        5 x 3 = 15 e 3 x 5 = 15
-                    </pre>
+5 x 3 = 15 e 3 x 5 = 15
+</pre>
 
     <li><b>Associativa</b></li>
     <p>Diferentes associações entre os termos não mudará o resultado da operação.</p>
     <pre>
-                        5 x (3 x 2) = 30
-                        (5 x 3) x 2 = 30
-                    </pre>
+5 x (3 x 2) = 30
+(5 x 3) x 2 = 30
+</pre>
 
     <li><b>Elemento neutro</b></li>
     <p>O elemento neutro da multiplicação é o número 1. Qualquer número multiplicado por 1, será ele mesmo.</p>
     <pre>
-                        245 x 1 = 245
-                        777 x 1 = 777
-                    </pre>
+245 x 1 = 245
+777 x 1 = 777
+</pre>
 
     <li><b>Distributiva</b></li>
     <p>O famoso “chuveirinho”, essa propriedade envolve tanto soma como multiplicação. Multiplicaremos os termos
       que estiverem dentro de parênteses.</p>
     <pre>
-                           4 x (2 + 3) = 
-                        (4 x 2) + (4 x 3) =
-                            8 + 12 = 20 
-                    </pre>
+4 x (2 + 3) = (4 x 2) + (4 x 3) = 8 + 12 = 20 
+</pre>
   </ul>
   </div>
   <!-- Operação 4: divisão-->
@@ -437,7 +446,7 @@
   </ul>
   <p>No exemplo abaixo, o 14 é o dividendo, o 2 o divisor e o 7 é o quociente.</p>
   <pre>
-                    14 / 2 = 7
+14 / 2 = 7
                 </pre>
   <p>Em uma divisão também pode existir o resto, que é o número que não pode ser dividido igualmente.</p>
   <ul class="subtopicos">
@@ -445,7 +454,7 @@
     <li><b>Divisão com resto:</b> quando o divisor não divide o dividendo sem deixar resto.</li>
   </ul>
   <pre>
-                    30 / 4 = 7, com 2 de resto.
+30 / 4 = 7, com 2 de resto.
                 </pre>
   <h3>Cálculo da divisão</h3>
   <p>As regras para dividir números inteiros são:</p>
@@ -460,26 +469,26 @@
   <ol class="subtopicos">
     <li>A divisão não é associativa e também não é comutativa. A ordem da divisão altera seu resultado final;</li>
     <pre>
-                         4 / 2 = 2
-                        2 / 4 = 0.5                    
-                    </pre>
+4 / 2 = 2
+2 / 4 = 0.5
+</pre>
     <li>A divisão por 0 é indefinida e quando o dividendo é 0 o resultado da divisão é 0;</li>
     <pre>
-                        3 / 0 = 0
-                   </pre>
+3 / 0 = 0
+</pre>
     <li>O quociente da divisão é o mesmo para múltiplos do dividendo e do divisor.</li>
     <pre>
-                         6 / 3 = 2
-                        12 / 6 = 2                
-                   </pre>
+6 / 3 = 2
+                12 / 6 = 2                
+ </pre>
   </ol>
   <ul class="subtopicos">
     <li><b>Elemento neutro</b></li>
     <p>Todo número dividido por 1 tem como resultado o próprio número.</p>
     <pre>
-                        5 / 1 = 5
-                        8 / 1 = 8
-                    </pre>
+5 / 1 = 5
+8 / 1 = 8
+</pre>
   </ul>
   </div>
   </div>
@@ -495,20 +504,20 @@
     <section class="topico" id="util-sist-decimal">
       <div class="folha-topico">
         <p id="rol_util_sist_dec"> </p> 
-        <h1 id="titulo_topico"><img src="imgs/mao (5).png" width="100px" height="100px">Contextos de utilização do Sistema Decimal</h1>
+        <h1 id="titulo_topico"><img src="imgs/mao-cinco.png" width="100px" height="100px">Contextos de utilização do Sistema Decimal</h1>
         <p id="paragrafo_topico">O sistema decimal está presente em várias situações do nosso cotidiano, diretamente ou indiretamente falando.
           Quando precisamos fazer cálculos, medir algo, fazer um pagamento, fazer uma compra, em diversas situações. Os
           números estão presentes em tudo que fazemos, eles nos descrevem, eles nos identificam nas nossas diferentes
           etapas da vida, o peso, a altura, o número do sapato, nossa casa é localizada por um número e por um CEP. Enfim,
           são diversos os exemplos em que encontramos a matemática e o sistema decimal inseridos na nossa vida. </p>
-        <p>Aqui estão algumas das aplicações desses números:</p>
+        <p id="paragrafo_topico">Aqui estão algumas das aplicações desses números:</p>
       </div>
       <div class="cartoes-imagens">
         <ul class="estrutura-cartoes">
           <li class="cartao-topico-util-sist-dec">
             <div class="conteudo-cartao">
               <div class="frente-cartao" id="Real">
-                <h3 class="titulo-conteudo">Sistema Monetário</h3>
+                <h3>Sistema Monetário</h3>
               </div>
               <div class="verso-cartao">
                 <p>O nosso sistema monetário é de base 10, ou seja, cada valor equivale a uma representação decimal. Por
@@ -519,7 +528,7 @@
           <li class="cartao-topico-util-sist-dec">
             <div class="conteudo-cartao">
               <div class="frente-cartao" id="Medida">
-                <h3 class="titulo-conteudo">Sistema de Medida</h3>
+                <h3>Sistema de Medida</h3>
               </div>
               <div class="verso-cartao">
                 <p>O nosso sistema de medidas também é de base 10, conseguimos medir em diversas unidades como
@@ -531,7 +540,7 @@
           <li class="cartao-topico-util-sist-dec">
             <div class="conteudo-cartao">
               <div class="frente-cartao" id="CPF">
-                <h3 class="titulo-conteudo">Identificação de Pessoa Física</h3>
+                <h3>Identificação de Pessoa Física</h3>
               </div>
               <div class="verso-cartao">
                 <p>O Cadastro de Pessoa Física é o registro de pessoas naturais independentemente de idade ou
@@ -541,11 +550,11 @@
                   publicamente conhecido.</p>
               </div>
             </div>
+          </div>
           </li>
         </ul>
-      </div>
     </section>
-    
+
     <!-- Fim do tópico de contexto de utilização -->
 
 
@@ -554,7 +563,8 @@
      <section class="topico" id="day-to-day">
       <!--<div class="conteudo-topico"> -->
         <div>
-          <h1 id="titulo_topico">Uso do dia a dia</h1>
+          <h1 id="titulo_topico"><img src="imgs/mao.png" width="100px" height=100px alt="maoum"><img src="imgs/mao-cinco.png" width="100px" height=100px alt="maoum">Uso do dia a dia</h1>
+          <div id="paragrafo_topico">
           <p>O sistema decimal, por ser o mais comum e familiar, está presente em muitos aspectos do nosso dia a dia.
           </p>
           <p>Vejamos algumas situações que você utiliza o sistema decimal:</p>
@@ -587,6 +597,7 @@
             pergunte a quantidade de brinquedos que eles possuem. Depois de saber a quantidade de brinquedos de cada
             amigo, seu desafio é: Some a quantidade de todos os brinquedos e veja a diferença da quantidade dos seus
             brinquedos com relação a quantidade dos seus amigos.</p>
+            </div>
         </div>
       </div>
     </section>
@@ -601,38 +612,40 @@
     <!-- Começo do tópico de uso na computação -->
     <section class="topico" id="usoComp-sist-decimal">
       <div class="conteudo-topicos" id="conteudo-usocomp-sist-decimal">
-        <h1 id="titulo_topico">Uso na Computação</h1>
+        <h1 id="titulo_topico"> <img src="imgs/mao-dois.png" width="100px" height=100px alt="maoum"><img src="imgs/mao-cinco.png" width="100px" height=100px alt="maoum">Uso na Computação</h1>
+        <div id="paragrafo_topico">
         <p>Embora os computadores usem principalmente o sistema binário para operações internas, o sistema decimal
           desempenha um papel importante em muitos aspectos da computação moderna,
           especialmente quando se trata de representação de dados para humanos e interação com sistemas externos.</p>
-        <ul>
+        <ul class="subtopicos">
           <li><b>Representação de números reais:</b></li>
           <p>O sistema decimal é comumente usado para representar números reais, incluindo valores monetários, medidas e
             outros tipos de dados que
             exigem precisão decimal. Por exemplo, quando você lida com valores em dólares e centavos em um software
             financeiro, o sistema decimal é empregado para garantir precisão nas operações.</p>
         </ul>
-        <ul>
+        <ul class="subtopicos">
           <li><b>Exibição de informações para usuários:</b></li>
           <p>Muitas interfaces de usuário exibem informações em formato decimal para facilitar a compreensão dos
             usuários. Isso é especialmente verdadeiro
             em aplicativos como software de contabilidade, calculadoras e bancos de dados, onde os valores precisam ser
             facilmente legíveis e compreensíveis para os usuários.</p>
         </ul>
-        <ul>
+        <ul class="subtopicos">
           <li><b>Comunicação com sistemas externos:</b></li>
           <p>Em muitos casos, os sistemas externos com os quais os computadores interagem usam o sistema decimal para
             representar dados. Por exemplo, dispositivos
             de medição, sensores e sistemas de controle muitas vezes fornecem dados em formato decimal, e os
             computadores precisam ser capazes de processar e manipular esses dados de maneira eficaz.</p>
         </ul>
-        <ul>
+        <ul class="subtopicos">
           <li><b>Codificação de dados:</b></li>
           <p>Embora os computadores usem principalmente o sistema binário internamente, o sistema decimal é usado em
             muitos casos para codificar e armazenar dados que são mais
             naturalmente expressos em formato decimal. Por exemplo, em bancos de dados, os números inteiros podem ser
             armazenados como valores decimais para facilitar a manipulação e a exibição.</p>
         </ul>
+        </div>
       </div>
     </section>
 
@@ -645,7 +658,7 @@
 
  <section class="topico" id="apresentacao">
   <div class="texto-apresentacao">
-    <h2 id="titulo-apresentacao">Idealizadores do Site</h2>
+    <h2 id="titulo-apresentacao"><img src="imgs/mao-cinco.png" width="100px" height=100px alt="maoum" id="tchau">Idealizadores do Site</h2>
     <p>Conheça mais sobre os idealizadores do site, suas redes e seus projetos!</p>
   </div>
   <div class="cartoes-apresentacao">
@@ -697,53 +710,53 @@
 
 <hr>
 
-    
+
   <footer>
 
         <h1> Deixe seu Feedback: </h1>
       </div>
     </section>
-    
+
     <section>
     <label>
       Nome:
     </label>
-    
+
     <input placeholder=" Escreva seu Nome Completo:" type="text" class="caixa_de_input" r>
-    
+
     <label>
       Email:
     </label>
-    
+
     <input placeholder=" Digite seu E-mail:" type="email" class="caixa_de_input">
-    
-    
+
+
     <label>
       Assunto:
     </label>
-    
+
     <select class="caixa_de_input">
       <option>
         Relatar erros
       </option>
-      
+
       <option>
         Feedback
       </option>
-      
+
     </select>
     <label>
       Feedback:
     </label>
-    
+
     <textarea placeholder=" Digite o seu comentário: " cols="19" rows="10" class="caixa_de_input" style="height: auto;"></textarea>
-  
+
   <button type="submit"> Enviar</button>
 
   </section>
 </footer>
-    
+
   </body>
-  
-  
+
+
   </html>
